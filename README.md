@@ -1,12 +1,17 @@
-# Bovino em Foco — Área de Membros & Central de Downloads
+# Bovino em Foco — Web Mini App VIP & Central de Downloads
 
-Esta é a página oficial da Área de Membros e Central de Entregáveis do produto **Bovino em Foco**.
+Esta é a aplicação web oficial em formato **Web Mini App VIP** e Central de Entregáveis do produto **Bovino em Foco**.
 
-## 🎨 Design System & Estilo Visual
-- **Tema:** Dark Mode Agro Minimalista & Profissional (`#0a1118`, `#0f172a`, `#1e293b`).
-- **Highlights:** Esmeralda Neon (`#10b981`), Ouro Amber (`#f59e0b`), Menta (`#34d399`).
-- **Tipografia:** Plus Jakarta Sans (Google Fonts).
-- **Recursos:** Efeitos 3D de livros via CSS, Glassmorphism moderno, micro-interações de download com Toast de feedback e 100% responsivo para celulares e desktops.
+## 🎨 Paleta de Cores e Estilo Visual Light Mini App
+- **Fundo Principal (Light Canvas):** `#f6f6f6`.
+- **Cards do App (Branco Puro Elevado):** `#ffffff` com sombras suaves e bordas `#BD7E15`/20.
+- **Acentos e Destaques Ouro Agro:** `#BD7E15` (botões principais, crachás, indicadores de abas ativas e detalhes).
+- **Tipografia Escura de Alto Contraste:** Títulos em Marrom Escuro `#2D1F0C` e corpo de texto em `#4A3B2A`.
+- **Experiência Mini App:**
+  - Header App Bar fixo com selo VIP e navegação por abas ativas.
+  - Barra de navegação inferior mobile (Bottom Navigation Dock) para acesso rápido aos módulos em smartphones.
+  - Micro-interações táteis nos botões (`active:scale-95`).
+  - Carrossel horizontal de bônus exclusivo com gestos de deslizar no celular e botões de navegação lateral no desktop.
 
 ---
 
@@ -22,12 +27,5 @@ Para vincular os seus arquivos PDF reais dos entregáveis, basta colocá-los na 
 
 ---
 
-## 💬 Suporte via WhatsApp
-No cabeçalho e na Seção 5 da página, o botão do WhatsApp já vem formatado. Para atualizar para o seu número oficial:
-1. Abra o arquivo `index.html`.
-2. Substitua o link `https://wa.me/5500000000000` pelo seu número com DDD (Ex: `https://wa.me/5511999999999`).
-
----
-
 ## 🚀 Como Visualizar
-Basta abrir o arquivo [`index.html`](file:///d:/MEU%20SERVIDOR/OFERTAS%20WHITE/Area%20de%20Membros%20-%20Tecnicas%20Bovinos/index.html) diretamente em qualquer navegador moderno.
+Basta abrir o arquivo [`index.html`](file:///d:/MEU%20SERVIDOR/OFERTAS%20WHITE/Area%20de%20Membros%20-%20Tecnicas%20Bovinos/index.html) diretamente em qualquer navegador no celular ou desktop.
