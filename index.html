@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#f6f6f6">
-    <title>Bovino em Foco | Mini App VIP & Central de Downloads</title>
-    <meta name="description" content="Central oficial em formato Mini App do Bovino em Foco. Baixe o guia +480 Técnicas Ilustradas e bônus exclusivos.">
+    <title>Bovino em Foco | Central Oficial de Downloads</title>
+    <meta name="description" content="Central oficial de entregáveis do Bovino em Foco. Baixe o guia +480 Técnicas Ilustradas e bônus exclusivos.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/svg+xml">
     
     <!-- Google Fonts: Montserrat (Headers) & Inter (Body) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -142,13 +146,13 @@
 </head>
 <body class="bg-[#f6f6f6] text-[#4A3B2A] min-h-screen flex flex-col antialiased selection:bg-[#BD7E15] selection:text-white pb-24 md:pb-12" id="inicio">
 
-    <!-- TOP MINI APP HEADER BAR -->
+    <!-- TOP HEADER BAR -->
     <header class="sticky top-0 z-50 app-glass shadow-sm">
-        <!-- Top App Ticker / VIP Status Pill -->
+        <!-- Top Status Bar -->
         <div class="bg-[#2D1F0C] border-b border-[#BD7E15]/30 px-4 sm:px-8 py-1.5 flex items-center justify-between text-[11px] sm:text-xs">
             <div class="flex items-center gap-2 font-bold text-[#FFFBF2]">
                 <span class="w-2 h-2 rounded-full bg-[#BD7E15] animate-ping"></span>
-                <span>MINI APP VIP • BOVINO EM FOCO</span>
+                <span>ÁREA DE MEMBROS • BOVINO EM FOCO</span>
             </div>
             <div class="flex items-center gap-2">
                 <span class="bg-[#BD7E15]/20 text-[#D9941C] border border-[#BD7E15]/40 px-2.5 py-0.5 rounded-full font-bold text-[10px] sm:text-[11px] uppercase tracking-wider">
@@ -160,16 +164,8 @@
         <!-- Main Navigation Bar Shell -->
         <div class="max-w-6xl mx-auto px-4 sm:px-8 py-3.5 flex items-center justify-between">
             <!-- App Brand Logo -->
-            <a href="#inicio" class="flex items-center gap-3 active:scale-95 transition-transform">
-                <div class="w-10 h-10 rounded-xl bg-[#BD7E15] flex items-center justify-center font-titles font-black text-xl text-white shadow-app-glow">
-                    B
-                </div>
-                <div>
-                    <span class="font-titles font-black text-lg sm:text-2xl text-[#2D1F0C] tracking-tight block leading-none">
-                        BOVINO <span class="text-[#BD7E15]">EM FOCO</span>
-                    </span>
-                    <span class="text-[9px] sm:text-[10px] font-bold text-[#7A6855] uppercase tracking-widest block mt-0.5">Central de Entregáveis</span>
-                </div>
+            <a href="#inicio" class="flex items-center active:scale-95 transition-transform">
+                <img src="assets/logo.svg" alt="Bovino em Foco Logo" class="h-10 sm:h-12 w-auto object-contain">
             </a>
 
             <!-- Desktop App Tabs -->
@@ -554,8 +550,8 @@
     <!-- FOOTER -->
     <footer class="bg-white border-t border-[#BD7E15]/20 py-8 px-4 text-center text-xs text-[#7A6855] space-y-4">
         <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div class="flex items-center gap-2 font-titles font-black text-[#2D1F0C] text-base">
-                <span>BOVINO <span class="text-[#BD7E15]">EM FOCO</span></span>
+            <div class="flex items-center">
+                <img src="assets/logo.svg" alt="Bovino em Foco Logo" class="h-9 sm:h-10 w-auto object-contain">
             </div>
             <div class="flex items-center gap-4 text-[11px] text-[#7A6855]">
                 <a href="#" class="hover:text-[#BD7E15] transition">Política de Privacidade</a>
